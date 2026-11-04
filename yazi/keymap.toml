@@ -1,0 +1,33 @@
+[mgr]
+prepend_keymap = [
+  { on = "z", run = "plugin zoxide", desc = "Jump to a directory via zoxide" },
+  { on = "Z", run = "plugin fzf", desc = "Jump to a file/directory via fzf" },
+
+  { on = "~", run = "find --previous --smart", desc = "Find previous file" },
+  { on = "?", run = "help", desc = "Open help" },
+  { on = [
+    ".",
+    "s",
+  ], run = "plugin what-size", desc = "Calc size of selection or cwd" },
+]
+
+[tasks]
+prepend_keymap = [{ on = "?", run = "help", desc = "Open help" }]
+
+[spot]
+prepend_keymap = [{ on = "?", run = "help", desc = "Open help" }]
+
+[pick]
+prepend_keymap = [{ on = "?", run = "help", desc = "Open help" }]
+
+[input]
+prepend_keymap = [{ on = "?", run = "help", desc = "Open help" }]
+
+[confirm]
+prepend_keymap = [{ on = "?", run = "help", desc = "Open help" }]
+
+[cmp]
+prepend_keymap = [{ on = "?", run = "help", desc = "Open help" }]
+
+[help]
+prepend_keymap = [{ on = "?", run = "help", desc = "Open help" }]

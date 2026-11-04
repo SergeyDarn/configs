@@ -1,0 +1,27 @@
+[init]
+	defaultBranch = master
+[user]
+	email = sergeydarn@gmail.com
+	name = Sergey Darn
+[include]
+    path = /Users/sergeydarn/.config/delta/themes.config
+[delta]
+    ; features = arctic-fox 
+    features = catppuccin-fox
+    side-by-side = false
+
+[diff]
+    algorithm = histogram
+    colorMoved = default
+    mnemonicPrefix = true
+
+[core]
+    pager = delta
+[pull]
+    ff = true
+
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true

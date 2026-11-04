@@ -1,0 +1,25 @@
+[mgr]
+syntect_theme = "~/.config/bat/themes/Catppuccin Mocha.tmTheme"
+
+[mode]
+normal_main = { fg = "#1e1e2e", bg = "#89b4fa", bold = true }
+normal_alt = { fg = "#89b4fa", bg = "#313244" }
+
+select_main = { fg = "#1e1e2e", bg = "#a6e3a1", bold = true }
+select_alt = { fg = "#a6e3a1", bg = "#313244" }
+
+unset_main = { fg = "#1e1e2e", bg = "#f2cdcd", bold = true }
+unset_alt = { fg = "#f2cdcd", bg = "#313244" }
+
+[status]
+sep_left = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
+progress_label = { fg = "#ffffff", bold = true }
+progress_normal = { fg = "#a6e3a1", bg = "#45475a" }
+progress_error = { fg = "#f9e2af", bg = "#f38ba8" }
+
+
+[tabs]
+active = { fg = "#1e1e2e", bg = "#cdd6f4", bold = true }
+inactive = { fg = "#cdd6f4", bg = "#45475a" }

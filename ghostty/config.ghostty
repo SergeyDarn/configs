@@ -1,0 +1,6 @@
+theme = Catppuccin Mocha
+background = #000
+background-opacity = 0.3
+font-size = 23.5
+selection-background = #3e4452
+selection-foreground = #000
