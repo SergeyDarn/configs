@@ -4,7 +4,7 @@
 	email = sergeydarn@gmail.com
 	name = Sergey Darn
 [include]
-    path = /Users/sergeydarn/.config/delta/themes.config
+    path = /Users/sergeydarn/.config/delta/delta-themes.config
 [delta]
     ; features = arctic-fox 
     features = catppuccin-fox
