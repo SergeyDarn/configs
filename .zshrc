@@ -49,9 +49,9 @@ eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/oh-my-posh-catppuccin-
 
 alias ls="eza --no-filesize --long --color=always --icons=always --no-user"
 alias cat="bat"
-alias sz="source ~/.zshrc"
-alias vz="vim ~/.zshrc"
 
+alias tmuxa="tmux new -A -s main"
+alias st="tmux source ~/.config/tmux/tmux.conf"
 
 # FZF
 
@@ -64,5 +64,9 @@ alias fzfo="fzfp | xargs -n1 nvim"
 
 alias sz="source ~/.zshrc"
 alias vz="vim ~/.zshrc"
+alias vn="vim /Users/sergeydarn/Synced/Notes/Quick\ Notes.md"
 
 alias yt="~/yt-dlp -S "res:1080" --js-runtimes deno --cookies-from-browser chrome --socket-timeout 10 -R 0"
+alias ytm="yt -x --audio-format mp3"
+
+
