@@ -51,6 +51,9 @@ brew = {
         "wget",
         "media-info", # detailed media info in yazi
         "exiftool", # detailed file info in yazi
+
+        "mpd", # terminal music player backend for rmpc
+        "mpv", # terminal cli music player - to open music in yazi
     ]
 }
 
@@ -68,5 +71,6 @@ npm = {
 cargo = {
     packages = [
         "metapac",
+        "rmpc" # cli music player with good ui
     ]
 }

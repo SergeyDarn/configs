@@ -1,2 +1,10 @@
 [mgr]
 show_hidden = true
+
+[opener]
+play_audio = [
+  { run = 'mpv --no-video %s', block = true, desc = "Play audio in terminal" },
+]
+
+[open]
+rules = [{ mime = "audio/*", use = "play_audio" }]
