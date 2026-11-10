@@ -32,6 +32,7 @@ brew = {
         "lazygit",
         "ghostty",
         "neovim",
+        "localsend",
 
         "deno",
         "zsh",
