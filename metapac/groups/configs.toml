@@ -33,6 +33,7 @@ brew = {
         "ghostty",
         "neovim",
         "localsend",
+        "tmux",
 
         "tlrc", # tldr
         "deno",
