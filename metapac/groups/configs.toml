@@ -34,7 +34,7 @@ brew = {
         "neovim",
         "localsend",
 
-        "tldr",
+        "tlrc", # tldr
         "deno",
         "zsh",
         "oh-my-posh",
