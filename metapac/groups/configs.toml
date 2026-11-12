@@ -58,7 +58,7 @@ brew = {
         "mpd", # terminal music player backend for rmpc
         "mpv", # terminal cli music player - to open music in yazi
         "uv",
-        "pkg-config" # manim dependency
+        "pkgconf", # manim dependency
     ]
 }
 
