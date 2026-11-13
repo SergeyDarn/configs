@@ -35,6 +35,7 @@ brew = {
         "localsend",
         "tmux",
         "vorssaint", # Lots of useful utils
+        "vhs", # Write terminal gifs as code
 
         "tlrc", # tldr
         "deno",
