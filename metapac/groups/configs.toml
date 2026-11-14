@@ -36,7 +36,10 @@ brew = {
         "tmux",
         "vorssaint", # Lots of useful utils
         "vhs", # Write terminal gifs as code
+        "keycastr", # Show pressed keys on screen
 
+        "go",
+        "slides", # Presentation in the terminal from a markdown file
         "tlrc", # tldr
         "deno",
         "zsh",
