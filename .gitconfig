@@ -27,7 +27,10 @@
     process = git-lfs filter-process
     required = true
 [merge]
-	tool = ec
+    tool = ec
+[mergetool]
+    prompt = false
+    keepBackup = false
 [mergetool "ec"]
 	cmd = ec \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
-	trustExitCode = true
+    trustExitCode = false
