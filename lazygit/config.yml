@@ -1,5 +1,27 @@
-# Peach theme
+
 gui:
+  nerdFontsVersion: "3"
+  showFileIcons: true
+  expandFocusedSidePanel: false
+  mainPanelSplitMode: vertical
+  showFileTree: false
+  showRootItemInFileTree: false
+  commitGraphStyle: detailed
+  commitAuthorShortLength: 0
+  statusPanelView: allBranchesLog
+  #
+  # Set to "always" for git educational purpose -
+  # always show which part of the file is staged and which is not
+  #
+  splitDiff: auto
+  #
+  # How things are filtered when typing '/'.
+  # One of 'substring' (default) | 'fuzzy'
+  #
+  filterMode: substring
+  #
+  # Peach catppuccin theme
+  #
   theme:
     activeBorderColor:
       - '#fab387'
@@ -32,6 +54,9 @@ gui:
 git:
   diffRenderers:
     - command: delta --{{colorScheme}} --paging=never --default-language=go
+  # See https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md#predefined-commit-message-prefix
+  commitPrefix: []
+  parseEmoji: true
 
 os:
   # Command for copying to the clipboard
