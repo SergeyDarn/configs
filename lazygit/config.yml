@@ -35,7 +35,7 @@ git:
 
 os:
   # Command for copying to the clipboard
-  copyToClipboardCmd: 'pbcopy' # macOS default
+  copyToClipboardCmd: 'printf %s {{text}} | pbcopy' # macOS default
   
   # Command for reading from the clipboard
   readFromClipboardCmd: 'pbpaste' # macOS default
