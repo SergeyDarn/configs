@@ -41,7 +41,8 @@ brew = {
         "zsh",
         "oh-my-posh",
         "sqlite",
-        "git-delta",
+        "git-delta", # syntax highlighting in git diff
+        "ec", # tui for resolving git merge conflicts
         "tree-sitter-cli",
         "ffmpeg",
         "fzf",

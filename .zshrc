@@ -5,6 +5,10 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# Make apps that store configs in Library/Application Support
+# store them in ~/.config instead
+export XDG_CONFIG_HOME="$HOME/.config"
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
