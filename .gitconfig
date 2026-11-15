@@ -25,3 +25,8 @@
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
     required = true
+[merge]
+	tool = ec
+[mergetool "ec"]
+	cmd = ec \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+	trustExitCode = true

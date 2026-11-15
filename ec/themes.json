@@ -1,0 +1,14 @@
+{
+    "default": "mine",
+    "themes": {
+        "mine": {
+            "line_number": " #e6e6fa",
+            "header_bg": "none",
+            "footer_bg": "none",
+            "selected_pane:border": "#fab387",
+            "selected_side_border": "#fab387",
+            "selected_hunk_marker_fg": "#fab387",
+            "status_unresolved_fg": "#ffe14c"
+        }
+    }
+}
