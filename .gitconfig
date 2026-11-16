@@ -6,8 +6,7 @@
 [include]
     path = /Users/sergeydarn/.config/delta/delta-themes.config
 [delta]
-    ; features = arctic-fox 
-    features = catppuccin-fox
+    features = catppuccin-darn
     side-by-side = false
     tabs = 4
 
