@@ -33,4 +33,4 @@
     keepBackup = false
 [mergetool "ec"]
 	cmd = ec \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
-    trustExitCode = false
+    trustExitCode = true
