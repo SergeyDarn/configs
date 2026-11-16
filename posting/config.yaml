@@ -1,0 +1,8 @@
+theme: neon-reef
+layout: vertical
+heading:
+  show_host: false
+collection_browser:
+  show_on_startup: false
+text_input:
+  blinking_cursor: false
