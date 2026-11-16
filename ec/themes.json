@@ -2,7 +2,6 @@
     "default": "mine",
     "themes": {
         "mine": {
-            "line_number": " #e6e6fa",
             "header_bg": "none",
             "footer_bg": "none",
             "selected_pane:border": "#fab387",
