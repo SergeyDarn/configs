@@ -73,3 +73,9 @@ alias vn="vim /Users/sergeydarn/Synced/Notes/Quick\ Notes.md"
 alias yt="~/yt-dlp -S "res:1080" --js-runtimes deno --cookies-from-browser chrome --socket-timeout 10 -R 0"
 alias ytm="yt -x --audio-format mp3"
 
+sync() {
+  z configs-manager
+  git pull
+  go run . --pull
+}
+
