@@ -33,6 +33,8 @@ edit-args = ["-c", "DiffviewDiffDirs $left $right $output"]
 [colors]
 "node immutable" = { fg = "#ef9f76", bold = true }
 "node working_copy" = { fg = "#ef9f76", bold = true }
+"elided" = { fg = "#ef9f76", bold = true }
+"node elided" = { fg = "#ef9f76", bold = true }
 "workspace_name" = "#ef9f76"
 "working_copies" = "#ef9f76"
 "workspace current_workspace" = { fg = "#ef9f76", bold = true }
