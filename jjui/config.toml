@@ -1,6 +1,9 @@
 [ui]
 flash_message_display_seconds = 10
 
+[preview]
+show_at_start = true
+
 [ui.colors]
 # Global
 "dimmed" = { fg = "#fff" }

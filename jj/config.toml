@@ -65,6 +65,8 @@ merge-args = ["$base", "$left", "$right", "$output"]
 "working_copy divergent" = { fg = "#93E2D5", bold = true }
 "bookmark" = "#93E2D5"
 "bookmarks" = "#93E2D5"
+"local_bookmarks" = { fg = "#93E2D5", bold = true }
+"remote_bookmarks" = { fg = "#93E2D5", bold = true }
 "local_tags" = "#93E2D5"
 "remote_tags" = "#93E2D5"
 "divergent" = "#93E2D5"
