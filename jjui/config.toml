@@ -1,5 +1,6 @@
 [ui]
-flash_message_display_seconds = 10
+# Notifications are dismissed manually
+flash_message_display_seconds = 0
 
 [preview]
 show_at_start = true
@@ -21,10 +22,6 @@ show_at_start = true
 "bookmarks title" = { fg = "#000000", bg = "#eebebe" }
 "git title" = { fg = "#000000", bg = "#eebebe" }
 "status title" = { fg = "#000000", bg = "#eebebe" }
-
-
-# "matched" = { fg = "#eebebe", bold = true }
-# "bookmarks" = { fg = "#93E2D5" }
 
 # Top bar
 "revset title" = { fg = "#eebebe" }
