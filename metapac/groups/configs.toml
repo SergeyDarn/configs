@@ -26,6 +26,7 @@
 brew = {
     repos = [
         "jandedobbeleer/oh-my-posh",
+        "chojs23/tap",
         "darrenburns/homebrew"
     ],
     packages = [
@@ -44,6 +45,7 @@ brew = {
         "jjui",
 
         "posting@beta", # TUI postman, but better
+        "im-switch", # binary for chojs23/im-switch.nvim plugin
         "go",
         "slides", # Presentation in the terminal from a markdown file
         "tlrc", # tldr
