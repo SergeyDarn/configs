@@ -52,13 +52,25 @@ edit-args = ["-c", "DiffviewDiffDirs $left $right $output"]
 "author" = "#eebebe"
 "committer" = "#eebebe"
 
+"working_copy description" = "#ef9f76"
+"working_copy description placeholder" = { fg = "#ef9f76" }
+"working_copy empty" = { fg = "#ef9f76" }
+"working_copy empty description placeholder" = { fg = "#ef9f76" }
+
 "description" = "#e6e6fa"
-"working_copy description placeholder" = { fg = "#595B70", bold = true }
-"description placeholder" = "#595B70"
-"empty" = "#595B70"
-"empty description placeholder" = "#595B70"
-"working_copy empty" = { fg = "#595B70", bold = true }
-"working_copy empty description placeholder" = { fg = "#595B70", bold = true }
+"working_copy" = { bold = true }
+"description placeholder" = "#9CA3AF"
+"empty" = "#9CA3AF"
+"empty description placeholder" = "#9CA3AF"
+"working_copy timestamp" = "#9CA3AF"
+"timestamp" = "#9CA3AF"
+"operation current_operation time" = { fg = "#9CA3AF", bold = true }
+"operation time" = "#9CA3AF"
+
+"operation attributes" = { fg = "#595B70" }
+"operation current_operation attributes" = { fg = "#595B70", bold = true }
+"tag" = "#595B70"
+"tags" = "#595B70"
 
 "working_copy bookmark" = { fg = "#93E2D5", bold = true }
 "working_copy bookmarks" = { fg = "#93E2D5", bold = true }
@@ -70,19 +82,10 @@ edit-args = ["-c", "DiffviewDiffDirs $left $right $output"]
 "working_copy remote_tags" = { fg = "#93E2D5", bold = true }
 "working_copy git_ref" = { fg = "#93E2D5", bold = true }
 "working_copy divergent" = { fg = "#93E2D5", bold = true }
-"bookmark" = "#93E2D5"
-"bookmarks" = "#93E2D5"
+"bookmark" = { fg = "#93E2D5", bold = true }
+"bookmarks" = { fg = "#93E2D5", bold = true }
 "local_bookmarks" = { fg = "#93E2D5", bold = true }
 "remote_bookmarks" = { fg = "#93E2D5", bold = true }
-"local_tags" = "#93E2D5"
-"remote_tags" = "#93E2D5"
-"divergent" = "#93E2D5"
-
-"working_copy timestamp" = { fg = "#595B70", bold = true }
-"operation current_operation time" = { fg = "#595B70", bold = true }
-"timestamp" = "#595B70"
-"operation time" = "#595B70"
-"operation attributes" = { fg = "#595B70" }
-"operation current_operation attributes" = { fg = "#595B70", bold = true }
-"tag" = "#595B70"
-"tags" = "#595B70"
+"local_tags" = { fg = "#93E2D5", bold = true }
+"remote_tags" = { fg = "#93E2D5", bold = true }
+"divergent" = { fg = "#93E2D5", bold = true }
