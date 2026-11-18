@@ -27,6 +27,7 @@
     required = true
 [merge]
     tool = ec
+    conflictstyle = zdiff3
 [mergetool]
     prompt = false
     keepBackup = false
