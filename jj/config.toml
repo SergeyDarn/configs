@@ -45,9 +45,9 @@ edit-args = ["-c", "DiffviewDiffDirs $left $right $output"]
 "working_copy commit_id" = { fg = "#e5c890", bold = true }
 "commit_id" = { fg = "#e5c890", bold = true }
 
-"rest" = "#B4BEFE"
-"operation current_operation id" = { fg = "#B4BEFE", bold = true }
-"operation id" = { fg = "#B4BEFE", bold = true }
+"rest" = "#89b4fa"
+"operation current_operation id" = { fg = "#89b4fa", bold = true }
+"operation id" = { fg = "#89b4fa", bold = true }
 
 "author" = "#eebebe"
 "committer" = "#eebebe"

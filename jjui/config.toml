@@ -22,8 +22,8 @@ show_at_start = true
 "confirmation:selected" = { fg = "#000000", bg = "#eebebe", bold = true }
 
 # Git
-"git title" = { fg = "#000000", bg = "#B4BEFE" }
-"git text" = { fg = "#B4BEFE" }
+"git title" = { fg = "#000000", bg = "#89b4fa" }
+"git text" = { fg = "#89b4fa" }
 
 # Bookmarks
 "bookmarks title" = { fg = "#000000", bg = "#93E2D5" }
