@@ -1,0 +1,79 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[user]
+name = "Sergey Darn"
+email = "sergeydarn@gmail.com"
+
+
+[template-aliases]
+'format_short_signature(signature)' = '""'
+'format_timestamp(timestamp)' = 'timestamp.local().ago()'
+'format_operation(op)' = '''
+concat(
+  separate(" ", format_short_operation_id(op.id()), label("user", ""), format_time_range(op.time())), "\n",
+  op.description().first_line(), "\n",
+  if(op.tags(), op.tags() ++ "\n"),
+)
+'''
+
+[ui]
+diff-formatter = "delta"
+merge-editor = "ec"
+# diff-editor = "ec"
+default-command = "log"
+
+[merge-tools.ec]
+merge-args = ["$base", "$left", "$right", "$output"]
+
+[colors]
+"node immutable" = { fg = "#ef9f76", bold = true }
+"node working_copy" = { fg = "#ef9f76", bold = true }
+"workspace_name" = "#ef9f76"
+"working_copies" = "#ef9f76"
+"workspace current_workspace" = { fg = "#ef9f76", bold = true }
+"node current_operation" = { fg = "#ef9f76", bold = true }
+"working_copy change_id" = { fg = "#ef9f76", bold = true }
+"change_id" = { fg = "#ef9f76", bold = true }
+
+"working_copy commit_id" = { fg = "#e5c890", bold = true }
+"commit_id" = { fg = "#e5c890", bold = true }
+
+"rest" = "#B4BEFE"
+"operation current_operation id" = { fg = "#B4BEFE", bold = true }
+"operation id" = { fg = "#B4BEFE", bold = true }
+
+"author" = "#eebebe"
+"committer" = "#eebebe"
+
+"description" = "#e6e6fa"
+"working_copy description placeholder" = { fg = "#595B70", bold = true }
+"description placeholder" = "#595B70"
+"empty" = "#595B70"
+"empty description placeholder" = "#595B70"
+"working_copy empty" = { fg = "#595B70", bold = true }
+"working_copy empty description placeholder" = { fg = "#595B70", bold = true }
+
+"working_copy bookmark" = { fg = "#93E2D5", bold = true }
+"working_copy bookmarks" = { fg = "#93E2D5", bold = true }
+"working_copy local_bookmarks" = { fg = "#93E2D5", bold = true }
+"working_copy remote_bookmarks" = { fg = "#93E2D5", bold = true }
+"working_copy tag" = { fg = "#93E2D5", bold = true }
+"working_copy tags" = { fg = "#93E2D5", bold = true }
+"working_copy local_tags" = { fg = "#93E2D5", bold = true }
+"working_copy remote_tags" = { fg = "#93E2D5", bold = true }
+"working_copy git_ref" = { fg = "#93E2D5", bold = true }
+"working_copy divergent" = { fg = "#93E2D5", bold = true }
+"bookmark" = "#93E2D5"
+"bookmarks" = "#93E2D5"
+"local_tags" = "#93E2D5"
+"remote_tags" = "#93E2D5"
+"divergent" = "#93E2D5"
+
+"working_copy timestamp" = { fg = "#595B70", bold = true }
+"operation current_operation time" = { fg = "#595B70", bold = true }
+"timestamp" = "#595B70"
+"operation time" = "#595B70"
+"operation attributes" = { fg = "#595B70" }
+"operation current_operation attributes" = { fg = "#595B70", bold = true }
+"tag" = "#595B70"
+"tags" = "#595B70"
