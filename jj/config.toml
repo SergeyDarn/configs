@@ -19,11 +19,16 @@ concat(
 [ui]
 diff-formatter = "delta"
 merge-editor = "ec"
-# diff-editor = "ec"
+diff-editor = "diffview"
 default-command = "log"
 
 [merge-tools.ec]
 merge-args = ["$base", "$left", "$right", "$output"]
+
+[merge-tools.diffview]
+program = "nvim"
+# Sets up directory diffing for `jj split`, `jj diffedit`, and `jj squash -i`
+edit-args = ["-c", "DiffviewDiffDirs $left $right $output"]
 
 [colors]
 "node immutable" = { fg = "#ef9f76", bold = true }
