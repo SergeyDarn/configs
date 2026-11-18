@@ -6,6 +6,8 @@
             "footer_bg": "none",
             "selected_pane:border": "#fab387",
             "selected_side_border": "#fab387",
+            "added_bg": "#092B2B",
+            "removed_bg": "#331523",
             "selected_hunk_marker_fg": "#fab387",
             "status_unresolved_fg": "#ffe14c"
         }
