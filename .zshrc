@@ -81,6 +81,7 @@ alias ytm="yt -x --audio-format mp3"
 sync() {
   z configs-manager
   git pull
+  go run .
   go run . --pull
 }
 
