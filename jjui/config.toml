@@ -21,14 +21,13 @@ show_at_start = true
 "confirmation border" = { bg = "none" }
 "confirmation:selected" = { fg = "#000000", bg = "#eebebe", bold = true }
 
-# Titles
-"bookmarks title" = { fg = "#000000", bg = "#eebebe" }
-"git title" = { fg = "#000000", bg = "#eebebe" }
-"status title" = { fg = "#000000", bg = "#eebebe" }
+# Git
+"git title" = { fg = "#000000", bg = "#B4BEFE" }
+"git text" = { fg = "#B4BEFE" }
 
-# Text
-"git text" = { fg = "#eebebe" }
-"bookmarks text" = { fg = "#eebebe" }
+# Bookmarks
+"bookmarks title" = { fg = "#000000", bg = "#93E2D5" }
+"bookmarks text" = { fg = "#93E2D5" }
 
 # Matched
 "git matched" = { fg = "#CDD6F4" }
@@ -46,6 +45,7 @@ show_at_start = true
 
 # Status bar
 ## title
+"status title" = { fg = "#000000", bg = "#eebebe" }
 ## shorcuts text
 "status dimmed" = { fg = "#CDD6F4" }
 ## shortcuts icon
