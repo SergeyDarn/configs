@@ -24,14 +24,17 @@ scope = "revisions.details"
 
 [ui.colors]
 # Global
-"dimmed" = { fg = "#fff" }
-"text" = { fg = "#fff" }
+"dimmed" = { fg = "#CDD6F4" }
+"text" = { fg = "#CDD6F4" }
 
 # Highlight line
 ":selected" = { bg = "#454759" }
 "git:selected" = { bg = "#454759" }
 "bookmarks:selected" = { bg = "#454759" }
+"revset completion:selected" = { bg = "#454759" }
 
+# Confirmation
+"confirmation text" = { fg = "#CDD6F4" }
 "confirmation border" = { bg = "none" }
 "confirmation:selected" = { fg = "#000000", bg = "#eebebe", bold = true }
 
@@ -40,14 +43,27 @@ scope = "revisions.details"
 "git title" = { fg = "#000000", bg = "#eebebe" }
 "status title" = { fg = "#000000", bg = "#eebebe" }
 
+# Text
+"git text" = { fg = "#eebebe" }
+"bookmarks text" = { fg = "#eebebe" }
+
+# Matched
+"git matched" = { fg = "#CDD6F4" }
+"bookmarks matched" = { fg = "#CDD6F4" }
+
 # Top bar
 "revset title" = { fg = "#eebebe" }
-"revset text" = { fg = "#fff", bold = true }
-"revset completion dimmed" = { fg = "#fff", bg = "none" }
+"revset text" = { fg = "#CDD6F4" }
+"revset completion" = { bg = "none" }
+"revset completion text" = { fg = "#B4BEFE" }
+"revset completion text:selected" = { fg = "#eebebe" }
+"revset completion matched" = { fg = "#eebebe", bold = true }
+"revset completion dimmed" = { fg = "#CDD6F4" }
+"revset completion dimmed:selected" = { fg = "#CDD6F4" }
 
 # Status bar
 ## title
 ## shorcuts text
-"status dimmed" = { fg = "#fff" }
+"status dimmed" = { fg = "#CDD6F4" }
 ## shortcuts icon
 "shortcut" = { fg = "#eebebe" }
