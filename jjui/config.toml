@@ -5,6 +5,23 @@ flash_message_display_seconds = 0
 [preview]
 show_at_start = true
 
+[[actions]]
+name = "open-in-editor"
+lua = '''
+local file = context.file()
+if not file then
+  flash("No file selected")
+  return
+end
+exec_shell("$EDITOR " .. string.format("%q", file))
+'''
+
+[[bindings]]
+action = "open-in-editor"
+key = ["e"]
+scope = "revisions.details"
+
+
 [ui.colors]
 # Global
 "dimmed" = { fg = "#fff" }
@@ -34,6 +51,3 @@ show_at_start = true
 "status dimmed" = { fg = "#fff" }
 ## shortcuts icon
 "shortcut" = { fg = "#eebebe" }
-
-
-# Git
