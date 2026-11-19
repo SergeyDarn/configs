@@ -5,6 +5,18 @@ flash_message_display_seconds = 0
 [preview]
 show_at_start = true
 
+[[bindings]]
+action = "revisions.open_new_between"
+key = "m"
+scope = "revisions"
+desc = "new between"
+
+[[bindings]]
+action = "revisions.open_diff_range"
+key = "ctrl+d"
+scope = "revisions"
+desc = "diff range"
+
 [ui.colors]
 # Global
 "dimmed" = { fg = "#CDD6F4" }
