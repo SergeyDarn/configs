@@ -30,6 +30,7 @@ program = "nvim"
 # Sets up directory diffing for `jj split`, `jj diffedit`, and `jj squash -i`
 edit-args = ["-c", "DiffviewDiffDirs $left $right $output"]
 
+# https://github.com/jj-vcs/jj/blob/main/cli/src/config/colors.toml
 [colors]
 "node immutable" = { fg = "#ef9f76", bold = true }
 "node working_copy" = { fg = "#ef9f76", bold = true }
@@ -69,8 +70,11 @@ edit-args = ["-c", "DiffviewDiffDirs $left $right $output"]
 
 "operation attributes" = { fg = "#595B70" }
 "operation current_operation attributes" = { fg = "#595B70", bold = true }
-"tag" = "#595B70"
-"tags" = "#595B70"
+
+"tag" = { fg = "#f38ba8", bold = true }
+"tags" = { fg = "#f38ba8", bold = true }
+"local_tags" = { fg = "#f38ba8", bold = true }
+"remote_tags" = { fg = "#f38ba8", bold = true }
 
 "working_copy bookmark" = { fg = "#93E2D5", bold = true }
 "working_copy bookmarks" = { fg = "#93E2D5", bold = true }
@@ -86,6 +90,4 @@ edit-args = ["-c", "DiffviewDiffDirs $left $right $output"]
 "bookmarks" = { fg = "#93E2D5", bold = true }
 "local_bookmarks" = { fg = "#93E2D5", bold = true }
 "remote_bookmarks" = { fg = "#93E2D5", bold = true }
-"local_tags" = { fg = "#93E2D5", bold = true }
-"remote_tags" = { fg = "#93E2D5", bold = true }
 "divergent" = { fg = "#93E2D5", bold = true }
