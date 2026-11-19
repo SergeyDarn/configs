@@ -17,6 +17,19 @@ key = "ctrl+d"
 scope = "revisions"
 desc = "diff range"
 
+[[bindings]]
+action = "ui.preview_scroll_down"
+key = "ctrl+j"
+scope = "ui.preview"
+desc = "scroll down"
+
+
+[[bindings]]
+action = "ui.preview_scroll_up"
+key = "ctrl+k"
+scope = "ui.preview"
+desc = "scroll up"
+
 [ui.colors]
 # Global
 "dimmed" = { fg = "#CDD6F4" }
