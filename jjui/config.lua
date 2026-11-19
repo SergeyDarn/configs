@@ -57,4 +57,8 @@ function setup(config)
 			jjui.revisions.refresh()
 		end
 	end)
+
+	config.action("revisions.abandon.apply", function()
+		jjui.builtin.revisions.abandon.apply({ force = ignore_immutable })
+	end)
 end
