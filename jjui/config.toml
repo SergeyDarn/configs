@@ -1,3 +1,6 @@
+# Default keybinds
+# https://github.com/idursun/jjui/blob/main/internal/config/default/bindings.toml
+
 [ui]
 # Notifications are dismissed manually
 flash_message_display_seconds = 0
