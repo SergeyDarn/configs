@@ -95,3 +95,9 @@ cargo = {
         "rmpc" # cli music player with good ui
     ]
 }
+
+uv = {
+    packages = [
+        "sqlit-tui",
+    ]
+}
