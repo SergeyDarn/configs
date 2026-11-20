@@ -75,7 +75,8 @@ brew = {
         "uv",
         "pkgconf", # manim dependency
 
-        "container" # Native mac containers
+        "container", # Native mac containers
+        "witr", # TUI to see what's running and why
     ]
 }
 
