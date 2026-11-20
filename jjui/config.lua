@@ -61,4 +61,8 @@ function setup(config)
 	config.action("revisions.abandon.apply", function()
 		jjui.builtin.revisions.abandon.apply({ force = ignore_immutable })
 	end)
+
+	config.action("revisions.rebase.apply", function()
+		jjui.builtin.revisions.rebase.apply({ force = ignore_immutable })
+	end)
 end
