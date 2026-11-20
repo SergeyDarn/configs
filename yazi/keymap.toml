@@ -1,3 +1,4 @@
+# Default https://github.com/sxyazi/yazi/blob/shipped/yazi-config/preset/keymap-default.toml
 [mgr]
 prepend_keymap = [
   { on = "z", run = "plugin zoxide", desc = "Jump to a directory via zoxide" },
@@ -5,10 +6,16 @@ prepend_keymap = [
 
   { on = "~", run = "find --previous --smart", desc = "Find previous file" },
   { on = "?", run = "help", desc = "Open help" },
+  # Remove default . action from help
+  { on = ".", run = "noop", desc = "" },
   { on = [
     ".",
     "s",
   ], run = "plugin what-size", desc = "Calc size of selection or cwd" },
+  { on = [
+    ".",
+    ".",
+  ], run = "hidden toggle", desc = "Toggle the visibility of hidden files" },
 ]
 
 [tasks]
