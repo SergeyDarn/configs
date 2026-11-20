@@ -85,3 +85,5 @@ sync() {
   go run . --pull
 }
 
+
+export GLAMOUR_STYLE="/Users/sergeydarn/.config/slides/catppuccin.json"
