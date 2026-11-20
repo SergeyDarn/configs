@@ -69,6 +69,7 @@ edit-args = ["-c", "DiffviewDiffDirs $left $right $output"]
 "operation time" = "#9CA3AF"
 
 "operation attributes" = { fg = "#595B70" }
+"operation tags" = { fg = "#595B70" }
 "operation current_operation attributes" = { fg = "#595B70", bold = true }
 
 "tag" = { fg = "#f38ba8", bold = true }
