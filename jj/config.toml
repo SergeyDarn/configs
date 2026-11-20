@@ -16,6 +16,9 @@ concat(
 )
 '''
 
+[snapshot]
+max-new-file-size = "50MiB"
+
 [ui]
 diff-formatter = "delta"
 merge-editor = "ec"
