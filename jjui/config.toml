@@ -33,6 +33,12 @@ key = "ctrl+k"
 scope = "ui.preview"
 desc = "scroll up"
 
+[[bindings]]
+action = "ui.open_redo"
+key = "ctrl+r"
+scope = "revisions"
+desc = "redo"
+
 [ui.colors]
 # Global
 "dimmed" = { fg = "#CDD6F4" }
